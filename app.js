@@ -28,7 +28,7 @@ function isPalingdrom(string) {
   string = string.toLowerCase()
   let result = '';
   for (let i = 0; i < string.length; i++){
-      result += string[i]  
+      result = string[i] += result  
   }
   if(result == string){
     console.log(true); 
