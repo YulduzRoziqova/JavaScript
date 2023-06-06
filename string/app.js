@@ -9,22 +9,6 @@
 
     console.log(repeat('abcd', 3));
 
-function slice(array, start, end) {
-        let Array =[];
-        if(end===undefined || end > array.length){
-          end = array.length;
-        }
-      
-        for (let i = start; i < end; i++) {
-          Array.push(array[i]);
-        }
-        return Array;
-      }
-      
-       console.log(slice(['m', 'a','d','i'],1,3));
-
-
-
        const indexOf =  function(stringToCheck, position) {
         let result=[];
           for (let i = 0; i < stringToCheck.length;i++) {
