@@ -37,12 +37,3 @@ function join(arr = [], item = "") {
     return result
  }
  console.log(join(array))
-
- 
- function split(arr, item){
-    for(let i = 0; i < arr.length;i++){
-       result += arr[i] + item
-    }
-    return `[${result}]`
-  }
-  console.log(split('olma tarvuz quvun', ','))
