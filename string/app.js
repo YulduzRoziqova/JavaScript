@@ -11,8 +11,9 @@
 
 function slice(array, start, end) {
         let Array =[];
-        if(end===undefined || end > array.length)
+        if(end===undefined || end > array.length){
           end = array.length;
+        }
       
         for (let i = start; i < end; i++) {
           Array.push(array[i]);
